@@ -6,9 +6,10 @@ interface Props {
   src: string;
   title: string;
   description: string;
+  sou: string;
 }
 
-const ProjectCard = ({ src, title, description , source }: Props) => {
+const ProjectCard = ({ src, title, description , sou }: Props) => {
   return (
     <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
       <Image
@@ -22,9 +23,10 @@ const ProjectCard = ({ src, title, description , source }: Props) => {
       <div className="relative p-4">
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
         <p className="mt-2 text-gray-300">{description}</p>
-        <a href={source}>
+        <a href={sou}>
           <PiLinkSimpleBold style={{ fontSize: '1em', margin:'2px', color: 'white' }} />
         </a>
+        
       </div>
     </div>
   );

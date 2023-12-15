@@ -15,19 +15,19 @@ const Projects = () => {
           src="/NetflixClone.png"
           title="Netflix Clone"
           description="Developed a Netflix clone using React, Redux Toolkit, Firebase, Styled Components, Node.js, and Express. The application utilizes the TMDB API for fetching movie data."
-          source='https://github.com/bhavyakashmira/netflix_clone'
+          sou="https://github.com/bhavyakashmira/netflix_clone"
         />
         <ProjectCard
           src="/TextUtil.png"
           title="NEWSFast website"
           description="Created NewsFast using React, integrated NewsAPI. Added features for news categorization, latest updates, and location-based selections. Utilized Bootstrap for enhanced design."
-          source="https://github.com/bhavyakashmira/NewsDashboard"
+          sou="https://github.com/bhavyakashmira/NewsDashboard"
         />
         <ProjectCard
           src="/SpaceWebsite.png"
           title="TextUtil Website"
           description="Built a React text utility website with diverse text manipulation options, simplifying text-related tasks and enhancing user experience."
-          source="https://github.com/bhavyakashmira/TextUtil"
+          sou="https://github.com/bhavyakashmira/TextUtil"
         />
       </div>
     </div>
