@@ -2,21 +2,21 @@ import React from "react";
 import ProjectCard from "../sub/ProjectCard";
 
 const Projects = () => {
+  const firstlink = "https://github.com/bhavyakashmira/netflix_clone"
   return (
-    <div
-      className="flex flex-col items-center justify-center "
-      id="projects"
-    >
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+
+    <div className="flex flex-col items-center justify-center" id="projects">
+      <h1 className="text-2xl md:text-4xl lg:text-5xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10 md:py-20">
         Projects
       </h1>
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+      <div className="flex flex-col md:flex-row gap-6 md:gap-10 px-4 md:px-10 lg:px-20">
         <ProjectCard
           src="/NetflixClone.png"
           title="Netflix Clone"
           description="Developed a Netflix clone using React, Redux Toolkit, Firebase, Styled Components, Node.js, and Express. The application utilizes the TMDB API for fetching movie data."
-          sou="https://github.com/bhavyakashmira/netflix_clone"
+          sou={firstlink}
         />
+
         <ProjectCard
           src="/TextUtil.png"
           title="NEWSFast website"
@@ -31,6 +31,8 @@ const Projects = () => {
         />
       </div>
     </div>
+
+
   );
 };
 
