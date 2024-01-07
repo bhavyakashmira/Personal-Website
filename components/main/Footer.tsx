@@ -4,7 +4,6 @@ import { CgMail } from "react-icons/cg";
 
 const Footer = () => {
   return (
-      
       <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-4 md:p-8 lg:p-12">
           <div className="font-bold text-lg md:text-xl lg:text-2xl mt-4 md:mt-8 lg:mt-12 flex justify-center">
               Contact with me

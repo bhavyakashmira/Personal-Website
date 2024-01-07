@@ -24,7 +24,7 @@ const Projects = () => {
           sou="https://github.com/bhavyakashmira/NewsDashboard"
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
+          src="/TextUtil.png"
           title="TextUtil Website"
           description="Built a React text utility website with diverse text manipulation options, simplifying text-related tasks and enhancing user experience."
           sou="https://github.com/bhavyakashmira/TextUtil"
